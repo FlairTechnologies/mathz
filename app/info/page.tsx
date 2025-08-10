@@ -17,7 +17,7 @@ export default function InfoPage() {
 
         <InfoSections />
 
-        <div className="mt-6 grid grid-cols-2 gap-3">
+        <div className="mt-6 flex flex-row mx-auto max-w-md place-content-between">
           <Link href="/game">
             <Button className="h-12 rounded-xl bg-rose-500 font-semibold hover:bg-rose-500/90">Start Game</Button>
           </Link>
